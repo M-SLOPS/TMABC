@@ -1,0 +1,94 @@
+
+* {box-sizing: border-box;}
+header{background-color: rgb(35, 95, 24);
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+ 
+    position: relative;
+    margin:0 auto;}
+nav {display: block;
+    border: 1px solid black;
+
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(151, 175, 208, 0.083);
+    max-width:400px;
+    position: relative;
+    margin:0 auto;}
+h2 {background-color: none;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+ 
+    position: relative;
+    margin:0 auto;}
+
+.bold{
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+.medium-font{
+    font-size: 30px;
+}
+.image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;          /* Allows stacking on small screens */
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.image-row figure {
+    margin: 0;
+    text-align: center;
+    max-width: 300px;         /* Controls image size on large screens */
+}
+
+.image-row img {
+    width: 100%;              /* Makes image responsive */
+    height: auto;
+    display: block;
+}
+
+.image-row .figcaption {
+    margin-top: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+.section {
+  background-color: rgb(42, 151, 179);
+    border: 1px solid black;display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Left side */
+.text {
+  flex: 1;
+}
+
+/* Right side */
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
